@@ -1,0 +1,299 @@
+*{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+}
+
+#cuadronegro{
+ background-color: rgba(0, 0, 0, 0.877);
+}
+
+.centrar{
+ width: 75%;
+ margin: 0 auto;
+ position: relative;
+ overflow: hidden;
+}
+
+.logo{
+ width: 80px;
+}
+
+.lista{
+ list-style: none;
+ position: absolute;
+ right: 0;
+ top: 0;
+}
+
+.elemento{
+ float: left;
+ color: aliceblue;
+ border-left: solid 1px rgb(255, 255, 255);
+ padding:20px;
+}
+
+.elemento{
+ color: rgb(255, 255, 255);
+}
+
+#cuadronegro2{
+  color: rgb(255, 255, 255);
+  background: rgb(38, 38, 38);
+  text-align: center;
+}
+
+.cuadroamarillo{
+  float: left;
+  margin-top: 95px;
+  line-height: 30px;
+}
+
+.botonrojo{
+  background-color: rgba(23, 138, 173, 0.819);
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.cuadroblanco{
+  padding-left: 65px;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.cuadroamarillo h2 {
+      font-size: 20px;
+}
+
+.imgdos{
+  width: 540px;
+    margin-top: -10px;
+}
+
+#cuadrogris{
+  background: rgb(46, 116, 181);
+  text-align: center;
+  width:auto;
+}
+
+.img3{
+  width: 155px;
+}
+
+.img4{
+  width: 148px;
+}
+
+.img5{
+  width: 145px;
+}
+
+.img6{
+  width: 199px;      
+}
+
+.img7{
+  width: 173px;      
+}
+
+.img8{
+  width: 195px;      
+}
+
+.img9{
+  width: 289px;
+}
+
+.img10{
+  width: 117px;
+}
+
+.img11{
+  width: 182px;
+}
+
+.img12{
+  width: 111px;
+}
+
+.img13{
+  width: 202px;
+}
+
+.img14{
+  width: 264px;
+}
+
+.img15{
+  width: 250px;
+}
+
+.img16{
+  width: 176px;
+}
+
+.img17{
+  width: 230px;
+}
+
+.img18{
+  width: 145px;
+}
+
+.img19{
+  width: 145px;
+}
+
+.img20{
+  width: 137px;
+}
+
+.img21{
+  width: 150px;
+}
+
+.img22{
+  width: 260px;
+}
+
+.img23{
+  width: 337px;
+}
+
+.img24{
+  width: 216px;
+}
+
+.img25{
+  width: 230px;
+}
+
+.img26{
+  width: 177px;
+}
+
+.img27{
+  width: 200px;
+}
+
+.img28{
+  width: 195px;
+}
+
+.img29{
+  width: 152px;
+}
+
+.img30{
+  width: 198px;
+}
+
+.img31{
+  width: 119px;
+}
+
+.img32{
+  width: 180px;
+}
+
+.img33{
+  width: 185px;
+}
+
+.img34{
+  width: 143px;
+}
+
+.img35{
+  width: 150px;
+}
+
+.img36{
+  width: 130px;
+}
+
+.img37{
+  width: 151px;
+}
+
+.img38{
+  width: 150px;
+}
+
+.img39{
+  width: 151px;
+}
+
+.img40{
+  width: 140px;
+}
+
+
+
+.Juegazos{
+  color: white;
+}
+
+a{
+  color: rgb(255, 255, 255);
+}
+
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+}
+
+.popup:target  {
+    opacity: 1;
+    visibility: visible;
+}
+
+.popup-content {
+    background: rgb(174, 163, 163);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.popup-content img {
+    max-width: 48%;
+    height: auto;
+}
+
+.close {
+    display: block;
+    margin-top: 15px;
+    padding: 8px 15px;
+    background: #010101;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las imágenes pasen a la siguiente fila si no caben */
+    gap: 10px; /* Espacio entre imágenes */
+    justify-content: center; /* Centra las imágenes */
+}
+
+.gallery img {
+    height: auto;
+    border-radius: 5px; /* Bordes redondeados para mejor estética */
+}
+
+
+
+
